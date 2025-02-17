@@ -1,5 +1,5 @@
 import Script from "next/script";
-import VideoEmbed from "./components/VideoEmbed";
+import VideoEmbed from "../components/VideoEmbed"
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
             clases de Yoga con nuestro Sistema de Anuncios
           </h1>
           <p className="text-white/80 font-medium text-[20px] text-center mt-4 mb-8">Mira el video y descubri como lo hacemos</p>
-          <VideoEmbed version={1} />
+          <VideoEmbed version={4} />
           <img className="h-[45px] object-contain mx-auto mb-8 mt-[100px]" src="../biofounders.png" alt="Bio Founders" />
           <p className="text-white/80 font-medium text-[20px] text-center">© Biofounders 2025. Todos los derechos reservados.</p>
         </div>
