@@ -39,9 +39,9 @@ export default function Faqs() {
 	}
 
 	return (
-		<section id="faqs" className="relative py-[60px] lg:py-[100px] px-4">
+		<section id="faqs" className="relative py-[60px] lg:py-[100px]">
 			<div className="tc-container">
-				<h2 className="text-[42px] font-semibold mb-8 text-center">Preguntas Frecuentes</h2>
+				<h2 className="text-[32px] md:text-[42px] font-semibold mb-4 text-center">Preguntas Frecuentes</h2>
 				<div className="max-w-[800px] mx-auto">
 					{
 						Preguntas.map((item) => (
