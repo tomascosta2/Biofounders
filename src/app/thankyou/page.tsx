@@ -31,7 +31,7 @@ export default function Home() {
 					<iframe className="aspect-[9/16] w-full" src="https://fast.wistia.net/embed/iframe/g0tibj3njb?web_component=true&seo=true&videoFoam=false"></iframe>
 					<iframe className="aspect-[9/16] w-full" src="https://fast.wistia.net/embed/iframe/782997tbkq?web_component=true&seo=true&videoFoam=false"></iframe>
 				</div>
-				<h2 className="text-[32px] md:text-[42px] font-semibold mb-8 text-center max-w-[800px] mx-auto leading-[40px] mt-[120px]">Como Julián consiguió 40 nuevos clientes con nuestra estrategia</h2>
+				<h2 className="text-[32px] md:text-[42px] font-semibold mb-8 text-center max-w-[800px] mx-auto leading-[40px] mt-[120px]">Mira como Julián consiguió 40 nuevos clientes con nuestra estrategia:</h2>
 				<iframe className="w-full aspect-video" 
 					src="https://www.youtube.com/embed/SaPx0Z534HI?si=7fyhTfuIWQy-U4XJ&controls=0&modestbranding=1&rel=0&fs=0&disablekb=1&playsinline=1" 
 					title="YouTube video player" 
