@@ -1,6 +1,12 @@
 import Script from "next/script";
 import "./globals.css";
 import '@fontsource-variable/league-spartan';
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Bio Founders',
+  description: 'Ayudamos a yoga teachers a conseguir nuevos clientes con un sistema simple de anuncios'
+}
 
 export default function RootLayout({
   children,
