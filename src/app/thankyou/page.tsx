@@ -15,7 +15,7 @@ export default function Home() {
 				<p className="text-white/80 font-medium text-[16px] md:text-[20px] leading-[100%] pt-[4px]">5.0 Estrellas de 132 reviews</p>
 			</div>
 			<h1 className="text-[26px] leading-[26px] md:text-[50px] font-bold md:leading-[47px] text-center mb-8">
-				¡Ya agendaste tu entrevista! Mira este video para que puedas aprovecharla al maximo.
+				¡Ya agendaste tu entrevista! Mira este video para que puedas aprovecharla al máximo.
 			</h1>
 			<VideoEmbed version={5} />
 		  </div>
