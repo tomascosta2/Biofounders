@@ -8,15 +8,15 @@ export default function Faqs() {
 	const Preguntas = [
 		{
 		  pregunta: "¿Cómo garantizan que realmente voy a recibir entre 10 y 40 alumnos nuevos al mes?",
-		  respuesta: "Nuestro sistema está diseñado específicamente para atraer alumnos interesados en clases de yoga en tu ciudad. Utilizamos anuncios altamente optimizados y estrategias de conversión probadas. Si sigues nuestras recomendaciones y tienes la capacidad de recibir nuevos alumnos, los resultados son consistentes."
+		  respuesta: "Nuestro sistema está diseñado específicamente para atraer alumnos interesados en clases de yoga en tu ciudad (u online). Utilizamos anuncios altamente optimizados y estrategias de conversión probadas. Si sigues nuestras recomendaciones y tienes la capacidad de recibir nuevos alumnos, los resultados son consistentes."
 		},
 		{
 		  pregunta: "¿Cuánto presupuesto adicional necesito para los anuncios?",
-		  respuesta: "Recomendamos un presupuesto publicitario acorde a tu objetivo de crecimiento. En promedio, nuestros clientes invierten desde [X cantidad] al mes en anuncios, con un retorno que les permite recuperar la inversión rápidamente con los nuevos alumnos."
+		  respuesta: "Recomendamos un presupuesto publicitario acorde a tu objetivo de crecimiento. En promedio, nuestros clientes invierten desde 35.000 pesos argentinos (aprox 30 USD) al mes en anuncios, con un retorno que les permite recuperar la inversión y tener ganancias rápidamente con los nuevos alumnos."
 		},
 		{
-		  pregunta: "¿Tengo que hacer algo técnico o gestionar los anuncios yo mismo?",
-		  respuesta: "No, nosotros nos encargamos de todo el proceso: desde la configuración de las campañas hasta la optimización continua. Solo necesitas estar listo para recibir y atender a los nuevos alumnos que llegarán a tu estudio o clases."
+		  pregunta: "¿Qué pasa si “me cuesta” la tecnología?",
+		  respuesta: "No te preocupes, porque te guiamos en todo el proceso, tanto con el material de nuestra plataforma como con el equipo de soporte técnico, que te acompaña con un chat diario y con reuniones semanales en vivo. Lo mejor es que una vez que implementas el sistema, después solo queda mantenerlo y optimizarlo, solo necesitas estar lista para recibir y atender a los nuevos alumnos que llegarán a tu estudio o clases."
 		},
 		{
 		  pregunta: "¿Qué pasa si en mi ciudad hay mucha competencia?",
@@ -24,9 +24,13 @@ export default function Faqs() {
 		},
 		{
 		  pregunta: "¿Tengo algún tipo de garantía si no funciona para mí?",
-		  respuesta: "Sí, ofrecemos [tipo de garantía o política de satisfacción, si aplica]. Nuestro objetivo es que obtengas resultados reales, por eso solo trabajamos con instructores y estudios que cumplen ciertos requisitos para maximizar el éxito de la estrategia."
+		  respuesta: "Sí, ofrecemos una garantía. Nuestro objetivo es que obtengas resultados reales, por eso solo trabajamos con instructores y estudios que cumplen ciertos requisitos para maximizar el éxito de la estrategia, los cuales analizaremos juntos en la llamada de aplicación."
+		},
+		{
+		  pregunta: "¿Qué pasa si no sé de marketing y ventas?",
+		  respuesta: "Sabemos que como yoga teacher ser un experto en marketing y ventas no es tu objetivo. Por eso mantenemos todo lo que enseñamos en el programa de una manera simple para que puedas conseguir alumnos recurrentes todas las semanas."
 		}
-	];
+	];	  
 	  
 	  
 
