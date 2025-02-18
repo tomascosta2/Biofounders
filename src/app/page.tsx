@@ -14,7 +14,7 @@ export default function Home() {
             Sumamos entre <span className="--highlight">10 y 40 alumnos nuevos</span> por mes para tus
             clases de Yoga con nuestro Sistema de Anuncios
           </h1>
-          <p className="text-white/80 font-medium text-[16px] md:text-[20px] text-center mt-4 mb-8">Mira el video y descubri como lo hacemos</p>
+          <p className="text-white/80 font-medium text-[16px] md:text-[20px] text-center mt-4 mb-8">Mira el video y descubrí cómo lo hacemos</p>
           <VideoEmbed version={1} />
           <img className="h-[35px] md:h-[45px] object-contain mx-auto mb-8 mt-[100px]" src="../biofounders.png" alt="Bio Founders" />
           <p className="text-white/80 font-medium text-[16px] md:text-[20px] text-center">© Biofounders 2025. Todos los derechos reservados.</p>
