@@ -24,12 +24,12 @@ export default function Home() {
 			<div className="max-w-[900px] mx-auto">
 				<h2 className="text-[32px] md:text-[42px] font-semibold mb-8 text-center max-w-[500px] mx-auto leading-[40px]">Algunos de los yogis con los que trabajamos:</h2>
 				<div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-					<iframe className="aspect-[9/16] w-full" src="https://drive.google.com/file/d/1kuByc8o_YLaxpB4J8Zs6eDaWuEe7WM1I/preview"></iframe>
-					<iframe className="aspect-[9/16] w-full" src="https://drive.google.com/file/d/1tKjnRvwPKUHQGRqZFxGElRnQdZtDC_1p/preview"></iframe>
-					<iframe className="aspect-[9/16] w-full" src="https://drive.google.com/file/d/1wFohNlMhwuwvYxyKtPsm-IDyIzxgRtN_/preview"></iframe>
-					<iframe className="aspect-[9/16] w-full" src="https://drive.google.com/file/d/1VYmzdoXhv1zT1EM2RM4tjoAXJrNK71lr/preview"></iframe>
-					<iframe className="aspect-[9/16] w-full" src="https://drive.google.com/file/d/1MgLpATDO0naNk9hjIOr-626265E_CNBx/preview"></iframe>
-					<iframe className="aspect-[9/16] w-full" src="https://drive.google.com/file/d/1pZugQZwfsm6w80ZYadOflFUT8tRzfIL8/preview"></iframe>
+					<iframe className="aspect-[9/16] w-full" src="https://fast.wistia.net/embed/iframe/l4mhpjya0l?web_component=true&seo=true&videoFoam=false"></iframe>
+					<iframe className="aspect-[9/16] w-full" src="https://fast.wistia.net/embed/iframe/88j5ccvet1?web_component=true&seo=true&videoFoam=false"></iframe>
+					<iframe className="aspect-[9/16] w-full" src="https://fast.wistia.net/embed/iframe/p824mmmqp4?web_component=true&seo=true&videoFoam=false"></iframe>
+					<iframe className="aspect-[9/16] w-full" src="https://fast.wistia.net/embed/iframe/b8xn8u9ucz?web_component=true&seo=true&videoFoam=false"></iframe>
+					<iframe className="aspect-[9/16] w-full" src="https://fast.wistia.net/embed/iframe/g0tibj3njb?web_component=true&seo=true&videoFoam=false"></iframe>
+					<iframe className="aspect-[9/16] w-full" src="https://fast.wistia.net/embed/iframe/782997tbkq?web_component=true&seo=true&videoFoam=false"></iframe>
 				</div>
 				<h2 className="text-[32px] md:text-[42px] font-semibold mb-8 text-center max-w-[800px] mx-auto leading-[40px] mt-[120px]">Como Julián consiguió 40 nuevos clientes con nuestra estrategia</h2>
 				<iframe className="w-full aspect-video" 
