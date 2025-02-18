@@ -9,7 +9,7 @@ export default function Home() {
       <section className="py-[60px] relative">
         <div className="max-w-[940px] mx-auto">
           <img className="h-[35px] md:h-[45px] object-contain mx-auto mb-8" src="../biofounders.png" alt="Bio Founders" />
-          <p className="text-white/80 font-medium text-[16px] md:text-[20px] text-center mb-4">+10.000 nuevos clientes generados a profesores de yoga </p>
+          <p className="text-white/80 font-medium text-[16px] md:text-[20px] text-center mb-4">+100 yoga teachers trabajando con nosotros</p>
           <h1 className="text-[26px] leading-[26px] md:text-[50px] font-bold md:leading-[47px] text-center">
             Sumamos entre <span className="--highlight">10 y 40 alumnos nuevos</span> por mes para tus
             clases de Yoga con nuestro Sistema de Anuncios
