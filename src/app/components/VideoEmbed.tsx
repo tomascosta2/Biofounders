@@ -28,13 +28,13 @@ const videos = [
     scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381b2fc05b6e78af4947b/player.js'
   },
   {
-    version: 5,
+    version: 5, // Thankyou
     id: '67b381c37ec45990fcee8acb',
     thumbnail: 'https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381c37ec45990fcee8acb/thumbnail.jpg',
     scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381c37ec45990fcee8acb/player.js'
   },
   {
-    version: 6,
+    version: 6, // Old one
     id: "6736a8255ee58e000b77dd12",
     thumbnail: "https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/6736a8255ee58e000b77dd12/thumbnail.jpg",
     scriptSrc: "https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/6736a8255ee58e000b77dd12/player.js"
