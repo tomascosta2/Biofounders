@@ -5,8 +5,8 @@ import Faqs from "./components/Faqs";
 export default function Home() {
 	return (
 	  <div className="relative px-4">
-		<div className="absolute blur-[200px] size-[832px] rounded-full bg-[#151F57]/80 -left-[310px] -top-[400px]"></div>
-		<div className="absolute blur-[200px] size-[832px] rounded-full bg-[#151F57]/80 -right-[310px] top-[600px]"></div>
+		<div className="absolute blur-[60px] size-[832px] rounded-full bg-[#151F57]/80 -left-[310px] -top-[400px]"></div>
+		<div className="absolute blur-[60px] size-[832px] rounded-full bg-[#151F57]/80 -right-[310px] top-[600px]"></div>
 		<section className="py-[60px] relative">
 		  <div className="max-w-[940px] mx-auto">
           <img className="h-[35px] md:h-[45px] object-contain mx-auto mb-8" src="../biofounders.png" alt="Bio Founders" />
