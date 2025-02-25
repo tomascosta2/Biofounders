@@ -3,42 +3,43 @@
 import { useEffect } from 'react';
 
 const videos = [
+  // {
+  //   version: 1,
+  //   id: '67b3800ea42b0f5bab097c7f',
+  //   thumbnail: 'https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b3800ea42b0f5bab097c7f/thumbnail.jpg',
+  //   scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b3800ea42b0f5bab097c7f/player.js'
+  // },
   {
-    version: 1,
-    id: '67b3800ea42b0f5bab097c7f',
-    thumbnail: 'https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b3800ea42b0f5bab097c7f/thumbnail.jpg',
-    scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b3800ea42b0f5bab097c7f/player.js'
-  },
-  {
+    // Version 2 Gano VWO
     version: 2,
     id: '67b3818fd2a6c3a06c164fd6',
     thumbnail: 'https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b3818fd2a6c3a06c164fd6/thumbnail.jpg',
     scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b3818fd2a6c3a06c164fd6/player.js'
   },
-  {
-    version: 3,
-    id: '67b381a1aab0e4b251a3b934',
-    thumbnail: 'https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381a1aab0e4b251a3b934/thumbnail.jpg',
-    scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381a1aab0e4b251a3b934/player.js'
-  },
-  {
-    version: 4,
-    id: '67b381b2fc05b6e78af4947b',
-    thumbnail: 'https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381b2fc05b6e78af4947b/thumbnail.jpg',
-    scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381b2fc05b6e78af4947b/player.js'
-  },
+  // {
+  //   version: 3,
+  //   id: '67b381a1aab0e4b251a3b934',
+  //   thumbnail: 'https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381a1aab0e4b251a3b934/thumbnail.jpg',
+  //   scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381a1aab0e4b251a3b934/player.js'
+  // },
+  // {
+  //   version: 4,
+  //   id: '67b381b2fc05b6e78af4947b',
+  //   thumbnail: 'https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381b2fc05b6e78af4947b/thumbnail.jpg',
+  //   scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381b2fc05b6e78af4947b/player.js'
+  // },
   {
     version: 5, // Thankyou
     id: '67b381c37ec45990fcee8acb',
     thumbnail: 'https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381c37ec45990fcee8acb/thumbnail.jpg',
     scriptSrc: 'https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/67b381c37ec45990fcee8acb/player.js'
   },
-  {
-    version: 6, // Old one
-    id: "6736a8255ee58e000b77dd12",
-    thumbnail: "https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/6736a8255ee58e000b77dd12/thumbnail.jpg",
-    scriptSrc: "https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/6736a8255ee58e000b77dd12/player.js"
-  }
+  // {
+  //   version: 6, // Old one
+  //   id: "6736a8255ee58e000b77dd12",
+  //   thumbnail: "https://images.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/6736a8255ee58e000b77dd12/thumbnail.jpg",
+  //   scriptSrc: "https://scripts.converteai.net/e6c08ca4-cb83-46ad-9564-d95d0d125100/players/6736a8255ee58e000b77dd12/player.js"
+  // }
 ];
 
 const VideoEmbed = ({ version }:any) => {
